@@ -1,6 +1,6 @@
 const { MongoClient } = require('mongodb');
-
-const uri = "mongodb+srv://desainaitik24:naitik24@cluster0.eq6finc.mongodb.net/?retryWrites=true&w=majority";
+//insert url from your atlas
+const uri = "Your URL";
 const client = new MongoClient(uri);
 
 async function run() {

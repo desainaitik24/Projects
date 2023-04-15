@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <title>Check weather</title>
+    <style>
+        body{
+            font-family: Montserrat;
+        }
+        h1{
+            color: #674188;
+        }
+        form{
+            margin: 50px;
+            width: 30%;
+            background-color: #E5E0FF;
+            border: 2px solid #674188;
+        }
+        table{
+            margin: 10px auto;
+            border-collapse: separate; 
+            border-spacing: 0 1em;
+        }
+        input{
+            height: 30px;
+            color: #674188;
+            font-size: 20px;
+            text-align: center;
+            border: 2px solid #674188;
+        }
+        button {
+            margin: 0px auto 20px;
+            background: #674188;
+            background-image: -webkit-linear-gradient(top, #674188, #C3ACD0);
+            background-image: -moz-linear-gradient(top, #674188, #C3ACD0);
+            background-image: -ms-linear-gradient(top, #674188, #C3ACD0);
+            background-image: -o-linear-gradient(top, #674188, #C3ACD0);
+            background-image: linear-gradient(to bottom, #674188, #C3ACD0);
+            -webkit-border-radius: 13;
+            -moz-border-radius: 13;
+            border-radius: 13px;
+            font-family: Arial;
+            color: #f1e6f7;
+            font-size: 20px;
+            padding: 10px 20px 10px 20px;
+            text-decoration: none;
+        }
+
+        button:hover {
+            background: #C3ACD0;
+            background-image: -webkit-linear-gradient(top, #C3ACD0, #a98bc4);
+            background-image: -moz-linear-gradient(top, #C3ACD0, #a98bc4);
+            background-image: -ms-linear-gradient(top, #C3ACD0, #a98bc4);
+            background-image: -o-linear-gradient(top, #C3ACD0, #a98bc4);
+            background-image: linear-gradient(to bottom, #C3ACD0, #a98bc4);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <h1>Check Temperature of your city</h1>
+    <form action="/" method="post">
+        <table>
+            <tr>
+                <th><label for="cityInput"></label></th>
+            </tr>
+            <tr>
+                <td><input type="text" id="cityInput" name="city" placeholder="Enter city name"></td>
+            </tr>
+        </table>
+        <button type="submit">Check</button>
+    </form>
+    <div>
+        <h1></h1>
+    </div>
+</center>
+</body>
+</html>

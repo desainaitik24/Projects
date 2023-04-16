@@ -1,0 +1,2 @@
+- This Application is designed to fetch your ip address and related information.
+- run "npm install" to install depnedencies

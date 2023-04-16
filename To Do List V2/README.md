@@ -1,0 +1,2 @@
+- This website stores data on MongoDB database.
+- You need to enter your mongodb atlas URL or local path in URL in 'app.js' file.

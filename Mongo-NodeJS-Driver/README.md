@@ -1,1 +1,2 @@
+- enter your url from your MongoDB atlas account or local path to run this app
 - run "npm install" to install dependencies

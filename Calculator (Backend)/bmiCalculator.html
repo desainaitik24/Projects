@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: Montserrat;
+        color: rgb(102, 26, 85);
+        text-align: center;
+      }
+      input {
+        margin: 1rem;
+        height: 30px;
+        width: 200px;
+      }
+      button {
+        background: #de76c9;
+        background-image: -webkit-linear-gradient(top, #de76c9, #59164c);
+        background-image: -moz-linear-gradient(top, #de76c9, #59164c);
+        background-image: -ms-linear-gradient(top, #de76c9, #59164c);
+        background-image: -o-linear-gradient(top, #de76c9, #59164c);
+        background-image: linear-gradient(to bottom, #de76c9, #59164c);
+        -webkit-border-radius: 15;
+        -moz-border-radius: 15;
+        border-radius: 15px;
+        text-shadow: 1px 1px 6px #666666;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 15px;
+        padding: 10px 25px 10px 25px;
+        text-decoration: none;
+      }
+
+      button:hover {
+        background: #f2d0ec;
+        background-image: -webkit-linear-gradient(top, #f2d0ec, #a6198a);
+        background-image: -moz-linear-gradient(top, #f2d0ec, #a6198a);
+        background-image: -ms-linear-gradient(top, #f2d0ec, #a6198a);
+        background-image: -o-linear-gradient(top, #f2d0ec, #a6198a);
+        background-image: linear-gradient(to bottom, #f2d0ec, #a6198a);
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>BMI Calculator</h1>
+      <form action="/bmiCalculator" method="post">
+          <input type="text" name="weight" placeholder="Weight in Kilo" /><br />
+          <input type="text" name="height" placeholder="Height in Meter" /><br />
+        <button type="submit" name="submit">Calculate BMI</button>
+      </form>
+    </div>
+  </body>
+</html>

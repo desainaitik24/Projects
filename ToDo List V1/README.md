@@ -1,1 +1,2 @@
 - This website uses static data, data are no longer accesible after server restart.
+- add "/work" to current url to make todo list for work purpose.

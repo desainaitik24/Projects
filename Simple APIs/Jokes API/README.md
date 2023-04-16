@@ -1,0 +1,2 @@
+- run "npm install" to install dependencies
+- reload to generate new joke

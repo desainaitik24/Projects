@@ -1,1 +1,2 @@
+- this website uses official Mailchimp API.
 - run "npm install" command to install dependecies
